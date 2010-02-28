@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100228021751) do
+ActiveRecord::Schema.define(:version => 20100228101404) do
 
   create_table "users", :force => true do |t|
     t.string   "name"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(:version => 20100228021751) do
     t.string   "salt"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "file_uploaded_at"
   end
 
 end

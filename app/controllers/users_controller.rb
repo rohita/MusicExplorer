@@ -24,5 +24,12 @@ class UsersController < ApplicationController
        redirect_to @user
      end
    end
+   
+   def update
+     @user = current_user
+     @user.file_uploaded_at = Time.now
+     @user.save!
+     redirect_to @user
+   end
 
 end

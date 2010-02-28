@@ -3091,3 +3091,1027 @@ Rendering template within layouts/application
 Rendering sessions/new
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
 Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 01:53:19) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI=", "password"=>"test", "email"=>"rohit.net@gmail.com"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'rohit.net@gmail.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:53:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 73ms (View: 66, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 02:08:50) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 14ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 02:08:57) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "password"=>"test", "email"=>"rohit.net@gmail.com"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'rohit.net@gmail.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:08:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100228021751)
+Migrating to AddColumnFileUploadedAt (20100228101404)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mALTER TABLE "users" ADD "file_uploaded_at" datetime[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100228101404')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:18:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #6 of app/views/users/show.html.erb:
+3: 	<div style="padding: 10px;">
+4: 		<div style="color:#495961; font-size:30px; font-weight:bold;"><%= @user.name %></div>
+5: 		<div style="color:#999999; font-size:12px;">Member Since <%= @user.created_at.to_date.to_s(:long) %></div>
+6: 		<div style="color:#999999; font-size:12px;">Last file refresh on <%= @user.file_uploaded_at.to_s(:long) %></div>
+7: 	</div>
+8: 	<div style="clear:both;"></div>
+9: </div>
+
+    app/views/users/show.html.erb:6:in `to_s'
+    app/views/users/show.html.erb:6
+
+Rendered rescues/_trace (97.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:18:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:19:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:19:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:19:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:23:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:23:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:24:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:35:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 02:35:02) [GET]
+
+ActionController::RoutingError (No route matches "/minibutton_matrix.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:35:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 02:35:11) [GET]
+
+ActionController::RoutingError (No route matches "/minibutton_matrix.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 02:35:25) [GET]
+
+ActionController::RoutingError (No route matches "/minibutton_matrix.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 02:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/minibutton_matrix.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 02:36:32) [GET]
+
+ActionController::RoutingError (No route matches "/minibutton_matrix.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:37:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:41:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:42:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:43:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:43:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:46:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:47:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (no implicit conversion to float from nil) on line #5 of app/views/users/show.html.erb:
+2: 	<div style="color:#999999; font-size:12px;float: right;">
+3: 		<div>iTune file uploaded <%= @user.file_uploaded_at %></div>
+4: 		<div>
+5: 			<%= time_ago_in_words(@user.file_uploaded_at) %>
+6: 		</div>
+7: 	    <div>
+8: 			<a class="minibutton" href="#"><span>Refresh</span></a>
+
+    app/views/users/show.html.erb:5
+
+Rendered rescues/_trace (98.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:47:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:48:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:49:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:49:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:50:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:51:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:52:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:53:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 74ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:57:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:57:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:58:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 02:58:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 03:00:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 03:01:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 03:12:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 03:28:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 03:58:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 69ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 03:58:58) [POST]
+  Parameters: {"multipart"=>"true", "commit"=>"Save changes", "method"=>"put", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "file"=>"minibutton_matrix.png"}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (22.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 04:00:38) [POST]
+  Parameters: {"multipart"=>"true", "commit"=>"Save changes", "method"=>"put", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "file"=>"minibutton_matrix.png"}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (22.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:00:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 04:00:54) [POST]
+  Parameters: {"multipart"=>"true", "commit"=>"Save changes", "method"=>"put", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "file"=>"minibutton_matrix.png"}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (87.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:04:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 04:04:35) [POST]
+  Parameters: {"multipart"=>"true", "commit"=>"Save changes", "method"=>"put", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "file"=>"minibutton_matrix.png"}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (22.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:05:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 04:05:25) [POST]
+  Parameters: {"multipart"=>"true", "commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "file"=>"minibutton_matrix.png"}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (86.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:08:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-02-28 04:08:42) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "id"=>"1", "file"=>#<File:/var/folders/mr/mratE-TkGtua904iW4mVHU+++TI/-Tmp-/RackMultipart20100228-2075-s0gmwk-0>}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing template users/update.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:09:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-02-28 04:09:58) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "id"=>"1", "file"=>#<File:/var/folders/mr/mratE-TkGtua904iW4mVHU+++TI/-Tmp-/RackMultipart20100228-2075-1pn3ml4-0>}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing template users/update.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:13:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 76ms (View: 68, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-02-28 04:14:03) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "id"=>"1", "file"=>#<File:/var/folders/mr/mratE-TkGtua904iW4mVHU+++TI/-Tmp-/RackMultipart20100228-2075-pgksif-0>}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'rohit.net@gmail.com' AND "users".id <> 1) LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:14:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:14:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:15:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-02-28 04:15:40) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "id"=>"1", "file"=>#<File:/var/folders/mr/mratE-TkGtua904iW4mVHU+++TI/-Tmp-/RackMultipart20100228-2075-3j2u1b-0>}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'rohit.net@gmail.com' AND "users".id <> 1) LIMIT 1[0m
+
+ActiveRecord::RecordInvalid (Validation failed: Password can't be blank):
+  app/controllers/users_controller.rb:31:in `update'
+
+Rendered rescues/_trace (94.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:20:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-02-28 04:21:03) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "id"=>"1", "file"=>#<File:/var/folders/mr/mratE-TkGtua904iW4mVHU+++TI/-Tmp-/RackMultipart20100228-2075-lu9gs0-0>}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'rohit.net@gmail.com' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2010-02-28 12:21:03', "file_uploaded_at" = '2010-02-28 12:21:03' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 04:21:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 09:52:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 09:58:02) [DELETE]
+  Parameters: {"authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 09:58:02) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 09:58:29) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "password"=>"test", "email"=>"abc@abc.com"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'abc@abc.com') LIMIT 1[0m
+Redirected to http://localhost:3000/sessions/new
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 09:58:29) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 09:58:43) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "password"=>"test", "email"=>"abc6@abc.com"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'abc6@abc.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/9
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 09:58:43) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (2.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 23ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-02-28 09:59:13) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "id"=>"9", "file"=>#<File:/var/folders/mr/mratE-TkGtua904iW4mVHU+++TI/-Tmp-/RackMultipart20100228-2075-1yn9g9h-0>}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'abc6@abc.com' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-02-28 17:59:13', "file_uploaded_at" = '2010-02-28 17:59:13' WHERE "id" = 9[0m
+Redirected to http://localhost:3000/users/9
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 09:59:13) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:09:31) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 89ms (View: 81, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:10:25) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (2.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 24ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 10:10:26) [DELETE]
+  Parameters: {"authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 10:10:26) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 10:10:43) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "password"=>"test", "email"=>"abc5@abc.com"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'abc5@abc.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/8
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:10:43) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/users/8]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 10:11:03) [DELETE]
+  Parameters: {"authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 10:11:04) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 10:11:09) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "password"=>"test", "email"=>"abc6@abc.com"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'abc6@abc.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/9
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:11:09) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:14:43) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.7ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:15:08) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 21ms (View: 10, DB: 1) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-02-28 10:15:15) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "id"=>"9", "file"=>#<File:/var/folders/mr/mratE-TkGtua904iW4mVHU+++TI/-Tmp-/RackMultipart20100228-2075-xwvree-0>}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'abc6@abc.com' AND "users".id <> 9) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2010-02-28 18:15:15', "file_uploaded_at" = '2010-02-28 18:15:15' WHERE "id" = 9[0m
+Redirected to http://localhost:3000/users/9
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:15:15) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:20:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 82ms (View: 13, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:21:23) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:28:01) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:28:23) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:33:02) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:33:08) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:33:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:47:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:47:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:49:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 10:51:11) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 11:09:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered users/_upload (1.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users/1]

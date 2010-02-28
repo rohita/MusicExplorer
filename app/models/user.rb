@@ -1,7 +1,7 @@
 require 'digest/sha1'
 
 class User < ActiveRecord::Base
-    validates_presence_of :name, :password
+    validates_presence_of :name
     validates_uniqueness_of :email
     validates_format_of :email, :with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i
     attr_accessor :password_confirmation
@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
     
     def gravatar 
         gravatar_id = Digest::MD5.hexdigest( email ) 
-        "http://www.gravatar.com/avatar/#{ gravatar_id }" 
+        "http://www.gravatar.com/avatar/#{ gravatar_id }?d=monsterid" 
     end
     
     def password

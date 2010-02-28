@@ -1,0 +1,12 @@
+<div id="upload" style="float: right;padding-top:5px;display: <%= display %>;">
+	<div style="color:#999999; font-size:12px;">Select your iTune file to upload</div>
+	<div style="color:#495961; font-size:22px;">
+		<% form_tag ( @user, :method => :put, :multipart => true) do %>
+		    <%= file_field_tag "file" %>
+		    <%= submit_tag %>
+		<% end %>
+	</div>
+    <div style="padding-top:5px;">
+		<a class="minibutton" href="#"><span>Upload</span></a>
+	</div>
+</div>

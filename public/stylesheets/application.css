@@ -111,3 +111,45 @@ a:hover {
 	background-color: red;
 	display: table;
 }
+
+.minibutton {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/images/minibutton_matrix.png) no-repeat scroll 0 0;
+	border:medium none;
+	color:#333333;
+	cursor:pointer;
+	display:inline-block;
+	font-size:11px;
+	font-weight:bold;
+	height:23px;
+	overflow:visible;
+	padding:0 0 0 3px;
+	text-shadow:1px 1px 1px #FFFFFF;
+	white-space:nowrap;
+}
+
+.minibutton > span {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/images/minibutton_matrix.png) no-repeat scroll 100% 0;
+	display:block;
+	height:23px;
+	line-height:23px;
+	padding:0 10px 0 8px;
+}
+
+.minibutton:hover {
+	background-position:0 -30px;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-shadow:none;
+}
+
+.minibutton:hover > span {
+	background-position:100% -30px;
+}
+
+
