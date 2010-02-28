@@ -8,7 +8,11 @@
   <% if flash[:notice] -%>
   	<div class="notify"><%= flash[:notice] %></div>
   <% end -%>
-  
+  <div class="banner">
+  	<div class="header">
+		<div class="logo"><%= image_tag("logo.gif") %></div>
+	</div>
+  </div>
   <div class="content">
     <%= yield %>
   </div>
