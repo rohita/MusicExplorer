@@ -1,0 +1,10 @@
+<div id="login" class="standard_form">
+	<h1>Log in <%= link_to "(or Sign Up)", new_user_path %></h1> 
+	<% form_tag ( :action => :create , :method => :post) do %>
+		<%= label_tag :email %><br />
+		<%= text_field_tag(:email, params[:email], :size => 40, :class => 'text') %><br />
+		<%= label_tag :password %><br />
+		<%= password_field_tag(:password, params[:password], :size => 40, :class => 'text') %><br />
+		<%= submit_tag "Login" %>
+	<% end -%>
+</div>

@@ -3,6 +3,15 @@ html, body {
   font-family: Arial, "MS Trebuchet", sans-serif;
 }
 
+a {
+	color:#4183C4;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
 .banner {
 	background-color:#ddd;
 	border-bottom: 2px solid #bbb;
@@ -16,11 +25,71 @@ html, body {
 
 .logo {
 	padding-top: 20px;
+	float:left;
+}
+
+.userbox {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/images/bar-left.png) no-repeat scroll 0 0;
+	float:right;
+	font-size:12px;
+	height:39px;
+	padding-left:6px;
+}
+
+.userbox .inner {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/images/bar-right.png) no-repeat scroll 100% 0;
+	height:29px;
+	padding:10px 12px 0 6px;
+}
+
+.userbox a {
+	font-weight:bold;
 }
 
 .content {
   margin: 0 auto;
   width: 900px;
+}
+
+#login {
+	width:31em;
+}
+
+.standard_form {
+	background-color:#EAF2F5;
+	border:12px solid #DDDDDD;
+	margin:3em auto 0;
+	padding:0em 2em 1em;
+	width:40em;
+}
+
+.standard_form h1 {
+	font-size:160%;
+	margin-bottom:1em;
+}
+
+.standard_form h1 a {
+	font-size:70%;
+	font-weight:normal;
+}
+
+.standard_form form label, .standard_form form .label, label.standard {
+	color:#666666;
+	font-size:100%;
+	margin:1em 0 0;
+}
+
+.standard_form form input.text {
+	font-size:110%;
+	border:1px solid #888888;
+	padding:5px;
+	margin-bottom:1em;
 }
 
 .notify {
@@ -31,19 +100,14 @@ html, body {
 	border-bottom:1px solid #D6800C;
 	padding:7px 0;
 	text-align:center;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
 }
-
-
 
 .fieldWithErrors {
 	padding: 2px;
 	background-color: red;
 	display: table;
-}
-
-#notify-table {
-
-font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;
-
-letter-spacing:-1px;
 }

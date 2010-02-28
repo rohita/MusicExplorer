@@ -11,6 +11,13 @@
   <div class="banner">
   	<div class="header">
 		<div class="logo"><%= image_tag("logo.gif") %></div>
+		<% if logged_in? %>
+		<div class="userbox">
+			<div class="inner">
+				<%= link_to "Log Out", sessions_path, :method => :delete %>
+			</div>
+		</div>
+		<% end -%>
 	</div>
   </div>
   <div class="content">

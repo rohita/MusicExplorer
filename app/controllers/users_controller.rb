@@ -1,6 +1,13 @@
 class UsersController < ApplicationController
-  def show
-     @user = User.find(params[:id])
+  before_filter :authorize, :except => [:new, :create]
+  
+   def show
+     if session[:user_id].to_s != params[:id].to_s
+        flash[:notice] = "You are not authorized to see other users pages."
+        redirect_to current_user
+     else  
+        @user = current_user
+     end
    end
 
    def new
@@ -9,16 +16,13 @@ class UsersController < ApplicationController
 
    def create
      @user = User.create params[:user]
-     if !@user.valid?
+     if !@user
        render :action => :new
      else
-        flash[:notice] = "You have sucessfully signed up."
-        redirect_to @user
+       session[:user_id] = @user.id
+       flash[:notice] = "Welcome #{@user.name}! Thank you for signing up."
+       redirect_to @user
      end
-   end
-   
-   def index
-     @users = User.all
    end
 
 end

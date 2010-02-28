@@ -7,6 +7,17 @@ class User < ActiveRecord::Base
     attr_accessor :password_confirmation
     validates_confirmation_of :password
     
+    def self.authenticate(email, password)
+      user = self.find_by_email(email)
+      if user
+        expected_password = encrypt_password(password, user.salt)
+        if user.hashed_password != expected_password
+          user = nil
+        end
+      end
+      return user
+    end
+    
     def gravatar 
         gravatar_id = Digest::MD5.hexdigest( email ) 
         "http://www.gravatar.com/avatar/#{ gravatar_id }" 
