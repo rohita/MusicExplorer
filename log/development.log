@@ -2822,3 +2822,272 @@ Rendering template within layouts/application
 Rendering users/show
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
 Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:46:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 01:46:04) [DELETE]
+  Parameters: {"authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:46:04) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 01:47:09) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI=", "password"=>"", "email"=>""}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Redirected to http://localhost:3000/sessions/new
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:47:09) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 01:47:21) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI=", "password"=>"", "email"=>""}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Redirected to http://localhost:3000/sessions/new
+Completed in 67ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:47:21) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 01:47:33) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI=", "password"=>"", "email"=>""}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Redirected to http://localhost:3000/sessions/new
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:47:33) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 01:47:42) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI=", "password"=>"test", "email"=>"rohit.net@gmail.com"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'rohit.net@gmail.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:47:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 01:47:46) [DELETE]
+  Parameters: {"authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:47:46) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 67ms (View: 61, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-02-28 01:47:53) [GET]
+Rendering template within layouts/application
+Rendering users/new
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-02-28 01:48:07) [POST]
+  Parameters: {"commit"=>"Sign Up", "authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI=", "user"=>{"name"=>"Aditi", "password_confirmation"=>"test", "password"=>"test", "email"=>"abc6@abc.com"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'abc6@abc.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "salt", "created_at", "updated_at", "hashed_password", "email") VALUES('Aditi', '21829019600.818981155903192', '2010-02-28 09:48:07', '2010-02-28 09:48:07', 'a1ab7b1a0b9fa6bd0680cdf1847dcbae3eef745b', 'abc6@abc.com')[0m
+Redirected to http://localhost:3000/users/9
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:48:07) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:48:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://localhost:3000/users/9
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:48:19) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 01:48:26) [DELETE]
+  Parameters: {"authenticity_token"=>"eYUANHrlePG1onRc3OvV69AE5wsPR5AMtxZVUel3FUI="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:48:26) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-02-28 01:48:50) [GET]
+Rendering template within layouts/application
+Rendering users/new
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:48:56) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 01:49:13) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "password"=>"test", "email"=>"abc6@abc.com"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'abc6@abc.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/9
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:49:13) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:49:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://localhost:3000/users/9
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:49:19) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/9]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 01:49:27) [DELETE]
+  Parameters: {"authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:49:27) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 66ms (View: 4, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-02-28 01:49:43) [POST]
+  Parameters: {"commit"=>"Login", "method"=>"post", "authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto=", "password"=>"test", "email"=>"rohit.net@gmail.com"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'rohit.net@gmail.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/sessions?method=post]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:49:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:49:48) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-02-28 01:49:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-02-28 01:49:51) [DELETE]
+  Parameters: {"authenticity_token"=>"vP5WXyZTgJQXvXsvLm5fXwfkiV3yuuqdwqp3WZRxuto="}
+Redirected to http://localhost:3000/sessions/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-02-28 01:49:51) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/sessions/new]
