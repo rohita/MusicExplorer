@@ -27,7 +27,8 @@ class UsersController < ApplicationController
    
    def update
      @user = current_user
-     @user.file_uploaded_at = Time.now
+     @user.library.destroy unless @user.library.nil?
+     @user.library = Library.new(:persistent_id => "467CC210AF83AC71")
      @user.save!
      redirect_to @user
    end

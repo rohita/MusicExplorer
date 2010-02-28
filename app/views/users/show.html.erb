@@ -1,9 +1,9 @@
 <div style="background-color:#FFFDEA; padding:10px;">
-	<% if !@user.file_uploaded_at.nil? %>
+	<% if !@user.library.nil? %>
 	<div id="file-status" style="float: right;padding-top:5px;">
 		<div style="color:#999999; font-size:12px;">iTune file uploaded</div>
 		<div style="color:#495961; font-size:22px;">
-			<%= time_ago_in_words(@user.file_uploaded_at) %> ago
+			<%= time_ago_in_words(@user.library.updated_at) %> ago
 		</div>
 	    <div style="padding-top:5px;">
 			<a class="minibutton" href="javascript:showUpload();"><span>Refresh</span></a>

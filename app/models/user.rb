@@ -7,6 +7,8 @@ class User < ActiveRecord::Base
     attr_accessor :password_confirmation
     validates_confirmation_of :password
     
+    has_one :library
+    
     def self.authenticate(email, password)
       user = self.find_by_email(email)
       if user
