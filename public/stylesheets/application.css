@@ -1,0 +1,22 @@
+.notify {
+	color:#735005;
+	font-size:130%;
+	font-weight:bold;
+	background-color:#F4A83D;
+	border-bottom:1px solid #D6800C;
+	padding:7px 0;
+	text-align:center;
+}
+
+.fieldWithErrors {
+	padding: 2px;
+	background-color: red;
+	display: table;
+}
+
+#notify-table {
+
+font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;
+
+letter-spacing:-1px;
+}
