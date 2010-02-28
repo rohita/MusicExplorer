@@ -1,2 +1,8 @@
-<p>Name: <%= @user.name %></p>
-<p>Email: <%= @user.email %></p>
+<div style="background-color:#FFFDEA; padding:10px;">
+	<div style="float:left; margin-right:10px;"><%= image_tag @user.gravatar %></div>
+	<div style="padding: 10px;">
+		<div style="color:#495961; font-size:30px; font-weight:bold;"><%= @user.name %></div>
+		<div style="color:#999999; font-size:12px;">Member Since <%= @user.created_at.to_date.to_s(:long) %></div>
+	</div>
+	<div style="clear:both;"></div>
+</div>

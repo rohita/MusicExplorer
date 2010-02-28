@@ -7,6 +7,11 @@ class User < ActiveRecord::Base
     attr_accessor :password_confirmation
     validates_confirmation_of :password
     
+    def gravatar 
+        gravatar_id = Digest::MD5.hexdigest( email ) 
+        "http://www.gravatar.com/avatar/#{ gravatar_id }" 
+    end
+    
     def password
       @password
     end
