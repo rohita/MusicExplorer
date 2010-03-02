@@ -27,9 +27,23 @@ class UsersController < ApplicationController
    
    def update
      @user = current_user
+     file_path = "#{RAILS_ROOT}/public/data/#{@user.id}.xml"
+     if params[:file].instance_of?(Tempfile)
+       FileUtils.copy(params[:file].local_path, file_path)
+     else
+       File.open(file_path,"w"){|f|
+                f.write(params[:file].read)
+                f.close}
+     end 
+     
+     library = Library.new
+     library.parse(file_path)
+     File.delete(file_path)
+     
      @user.library.destroy unless @user.library.nil?
-     @user.library = Library.new(:persistent_id => "467CC210AF83AC71")
+     @user.library = library
      @user.save!
+     
      redirect_to @user
    end
 

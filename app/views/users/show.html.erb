@@ -20,3 +20,40 @@
 	</div>
 	<div style="clear:both;"></div>
 </div>
+<% if !@user.library.nil? %>
+<div style="padding-top: 20px;">
+	<div class="stats-label">
+		<div style="padding-bottom: 5px;padding-right: 10px;">Your Library Stats</div>
+	</div>
+	<div class="stats-box">
+		<ul class="stats">
+			<li>
+				<strong><%= @user.library.number_of_tracks %></strong>
+				<span>tracks</span>
+			</li>
+			<li>
+				<strong><%= @user.library.number_of_albums %></strong>
+				<span>albums</span>
+			</li>
+			<li>
+				<strong><%= @user.library.number_of_artists %></strong>
+				<span>artists</span>
+			</li>
+			<li>
+				<strong><%= @user.library.total_playtime_formatted %></strong>
+				<span>total play time</span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div style="clear: both;"></div>
+<br />
+<!-->
+<div style="display: none;">
+	<div>YOUR FAV TOP 10 SONGS:</div>
+	<% @user.library.top_tracks_by_play_count(10).each do |track| %>
+	<div>(<%= track.play_count %> times played) - <%= track.name %> (<%= track.artist %>, <%= track.album.upcase %>)</div>
+	<% end %>
+<div>
+-->
+<% end %>

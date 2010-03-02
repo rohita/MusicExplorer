@@ -9,11 +9,27 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100228193354) do
+ActiveRecord::Schema.define(:version => 20100301022317) do
 
   create_table "libraries", :force => true do |t|
     t.integer  "user_id"
     t.string   "persistent_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "libraries_tracks", :id => false, :force => true do |t|
+    t.integer "library_id"
+    t.integer "track_id"
+  end
+
+  create_table "tracks", :force => true do |t|
+    t.string   "persistent_id"
+    t.string   "name"
+    t.string   "artist"
+    t.string   "album"
+    t.integer  "total_time"
+    t.integer  "play_count"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

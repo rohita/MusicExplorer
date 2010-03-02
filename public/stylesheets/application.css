@@ -52,6 +52,47 @@ a:hover {
 	font-weight:bold;
 }
 
+.stats-label {
+	border-bottom:1px solid #CCCCCC;
+	float:left;
+	margin-top:38px;
+	text-align:right;
+	width:300px;
+	color:#495961; 
+	font-size:12px;
+}
+
+.stats-box {
+	float: right;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	width: 599px;
+}
+
+ul.stats {
+	margin:5px 0 0;
+}
+
+ul.stats li {
+	float:left;
+	list-style-type:none;
+	margin-right:30px;
+}
+
+ul.stats li strong {
+	color:#000000;
+	display:block;
+	font-size:36px;
+	font-weight:bold;
+}
+
+ul.stats li span {
+	color:#999999;
+	display:block;
+	font-size:12px;
+	margin-top:-5px;
+}
+
 .content {
   margin: 0 auto;
   width: 900px;
