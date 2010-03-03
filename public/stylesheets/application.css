@@ -55,20 +55,38 @@ a:hover {
 .stats-label {
 	float:left;
 	margin-top:20px;
+	margin-left:5px;
 	text-align:right;
-	width:300px;
 	color:#495961; 
 	font-size:12px;
+	font-weight:bold;
+	padding-bottom: 5px;
+	width:110px;
 }
 
-.stats-box {
+#stats-box {
 	float: right;
-	border-left: 1px solid #CCCCCC;
-	width: 599px;
+	width: 775px;
+}
+
+#stats-box .group {
+	border-top:1px solid #BEDCE7;
+}
+
+#stats-box .envelope {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#EAF2F5 url(/images/bg_gradient.gif) repeat-x scroll 0 100%;
+	border-bottom:1px solid #BEDCE7;
+	border-left:1px solid #BEDCE7;
+	border-right:1px solid #BEDCE7;
+	overflow:hidden;
+	padding:0 0.7em 0.7em;
 }
 
 ul.stats {
-	margin:5px 0 0;
+	margin:15px 0 0;
 }
 
 ul.stats li {
@@ -80,7 +98,7 @@ ul.stats li {
 ul.stats li strong {
 	color:#000000;
 	display:block;
-	font-size:36px;
+	font-size:32px;
 	font-weight:bold;
 }
 
@@ -89,6 +107,34 @@ ul.stats li span {
 	display:block;
 	font-size:12px;
 	margin-top:-5px;
+}
+
+#browser table {
+	border-left:1px solid #D8D8D8;
+	border-right:1px solid #D8D8D8;
+	border-top:1px solid #D8D8D8;
+	font-family:Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+	font-size:70%;
+	width:100%;
+}
+
+#browser table td {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#F8F8F8 url(/images/ow_bg.png) repeat-x scroll 0 100%;
+	border-bottom:1px solid #E1E1E1;
+	color:#484848;
+	padding:0.5em 0.3em;
+}
+
+#browser table th {
+	background-color:#EAEAEA;
+	border-bottom:1px solid #D8D8D8;
+	color:#999999;
+	font-weight:normal;
+	padding:0.5em 0.3em;
+	text-align:left;
 }
 
 .content {

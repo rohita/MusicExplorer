@@ -20,40 +20,5 @@
 	</div>
 	<div style="clear:both;"></div>
 </div>
-<% if !@user.library.nil? %>
-<div style="padding-top: 20px;">
-	<div class="stats-label">
-		<div style="padding-bottom: 5px;padding-right: 10px;">Your Library Stats</div>
-	</div>
-	<div class="stats-box">
-		<ul class="stats">
-			<li>
-				<span>tracks</span>
-				<strong><%= @user.library.number_of_tracks %></strong>				
-			</li>
-			<li>
-				<span>albums</span>
-				<strong><%= @user.library.number_of_albums %></strong>				
-			</li>
-			<li>
-				<span>artists</span>
-				<strong><%= @user.library.number_of_artists %></strong>				
-			</li>
-			<li>
-				<span>total play time</span>
-				<strong><%= @user.library.total_playtime_formatted %></strong>				
-			</li>
-		</ul>
-	</div>
-</div>
-<div style="clear: both;"></div>
-<br />
-<!-->
-<div style="display: none;">
-	<div>YOUR FAV TOP 10 SONGS:</div>
-	<% @user.library.top_tracks_by_play_count(10).each do |track| %>
-	<div>(<%= track.play_count %> times played) - <%= track.name %> (<%= track.artist %>, <%= track.album.upcase %>)</div>
-	<% end %>
-<div>
--->
-<% end %>
+<%= render(:partial => "stats", :locals => {:library => @user.library}) %>
+<%= render(:partial => "favs", :locals => {:library => @user.library}) %>

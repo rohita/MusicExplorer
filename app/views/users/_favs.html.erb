@@ -1,0 +1,26 @@
+<% if !library.nil? %>
+<div style="padding-top: 20px;">
+	<div class="stats-label">
+		<div>Your Favorites</div>
+	</div>
+	<div style="float:right;width:775px;" id="browser">
+		<table cellspacing="0" cellpadding="0">
+			<tr>
+				<th>Song</th>
+				<th>Artist</th>
+				<th>Album</th>
+				<th>Played</th>
+			</tr>
+			<% library.top_tracks_by_play_count(10).each do |track| %>
+			<tr>
+				<td><%= truncate track.name, :length => 25 %></td>
+				<td><%= truncate track.artist, :length => 25 %></td>
+				<td><%= track.album %></td>
+				<td><%= track.play_count %></td>
+			</tr>
+			<% end %>
+		</table>
+	</div>
+</div>
+<div style="clear: both;"></div>
+<% end %>
