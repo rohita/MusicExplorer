@@ -14,8 +14,12 @@
 			<% limit = params[:n] || 10 %>
 			<% @library.top_tracks_by_play_count(limit).each do |track| %>
 			<tr>
-				<td width="180px"><%= truncate track.name, :length => 25 %></td>
-				<td width="180px"><%= truncate track.artist, :length => 25 %>&nbsp;</td>
+				<td width="180px"><%= truncate(track.name, :length => 25) %></td>
+				<% if track.artist == "" %>
+					<td width="190px">&nbsp;</td>
+				<% else %>
+					<td width="190px"><%= link_to truncate(track.artist, :length => 25), artist_path(:id => track.artist) %>&nbsp;</td>
+				<% end -%>
 				<td><%= track.album %>&nbsp;</td>
 				<td width="20px"><%= track.play_count %></td>
 			</tr>
