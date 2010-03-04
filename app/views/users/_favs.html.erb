@@ -1,4 +1,4 @@
-<% if !library.nil? %>
+<% if !@library.nil? %>
 <div style="padding-top: 20px;">
 	<div class="stats-label">
 		<div>Your Favorites</div>
@@ -11,15 +11,19 @@
 				<th>Album</th>
 				<th>Played</th>
 			</tr>
-			<% library.top_tracks_by_play_count(10).each do |track| %>
+			<% limit = params[:n] || 10 %>
+			<% @library.top_tracks_by_play_count(limit).each do |track| %>
 			<tr>
-				<td><%= truncate track.name, :length => 25 %></td>
-				<td><%= truncate track.artist, :length => 25 %></td>
-				<td><%= track.album %></td>
-				<td><%= track.play_count %></td>
+				<td width="180px"><%= truncate track.name, :length => 25 %></td>
+				<td width="180px"><%= truncate track.artist, :length => 25 %>&nbsp;</td>
+				<td><%= track.album %>&nbsp;</td>
+				<td width="20px"><%= track.play_count %></td>
 			</tr>
 			<% end %>
 		</table>
+		<div style="margin-top:10px;">
+		<%= link_to_remote "<span>More</span>", :update => "fav", :url => user_path(:n => limit.to_i+10) , :method => :get, :html => { :class  => "minibutton" } %>
+		</div>
 	</div>
 </div>
 <div style="clear: both;"></div>

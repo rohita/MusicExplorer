@@ -20,5 +20,8 @@
 	</div>
 	<div style="clear:both;"></div>
 </div>
-<%= render(:partial => "stats", :locals => {:library => @user.library}) %>
-<%= render(:partial => "favs", :locals => {:library => @user.library}) %>
+<%= render(:partial => "stats") %>
+<div id="fav">
+<%= render(:partial => "favs") %>
+</div>
+<br /><br />

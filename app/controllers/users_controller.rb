@@ -7,6 +7,13 @@ class UsersController < ApplicationController
         redirect_to current_user
      else  
         @user = current_user
+        @library = @user.library
+        
+        respond_to do |wants|
+          wants.html do render end
+          wants.js do render :partial => "favs" end
+        end
+        
      end
    end
 

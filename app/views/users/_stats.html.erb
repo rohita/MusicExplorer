@@ -1,4 +1,4 @@
-<% if !library.nil? %>
+<% if !@library.nil? %>
 <div style="padding-top: 20px;">
 	<div class="stats-label">
 		<div>Your Library Stats</div>
@@ -8,19 +8,19 @@
 		<ul class="stats">
 			<li>
 				<span>tracks</span>
-				<strong><%= library.number_of_tracks %></strong>				
+				<strong><%= @library.number_of_tracks %></strong>				
 			</li>
 			<li>
 				<span>albums</span>
-				<strong><%= library.number_of_albums %></strong>				
+				<strong><%= @library.number_of_albums %></strong>				
 			</li>
 			<li>
 				<span>artists</span>
-				<strong><%= library.number_of_artists %></strong>				
+				<strong><%= @library.number_of_artists %></strong>				
 			</li>
 			<li>
 				<span>total play time</span>
-				<strong><%= library.total_playtime_formatted %></strong>				
+				<strong><%= @library.total_playtime_formatted %></strong>				
 			</li>
 		</ul>
 		</div></div>
