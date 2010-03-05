@@ -3,7 +3,7 @@
 	<div class="stats-label">
 		<div>Your Favorites</div>
 	</div>
-	<div style="float:right;width:775px;" id="browser">
+	<div style="float:right;width:700px;" id="browser">
 		<table cellspacing="0" cellpadding="0">
 			<tr>
 				<th>Song</th>
@@ -20,7 +20,7 @@
 				<% else %>
 					<td width="190px"><%= link_to truncate(track.artist, :length => 25), artist_path(:id => track.artist) %></td>
 				<% end -%>
-				<td><%= track.album %>&nbsp;</td>
+				<td><%= truncate(track.album, :length => 36) %>&nbsp;</td>
 				<td width="20px"><%= track.play_count %></td>
 			</tr>
 			<% end %>

@@ -25,7 +25,7 @@ class Library < ActiveRecord::Base
     seconds = totalSeconds % 60; 
     minutes = (totalSeconds / 60) % 60; 
     hours = totalSeconds / 3600;
-    duration = sprintf("%02dh:%02dm:%02ds",hours, minutes, seconds)
+    duration = sprintf("%d:%02d",hours, minutes)
   end
   
   def top_tracks_by_play_count(n)
