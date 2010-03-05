@@ -20,7 +20,7 @@ a:hover {
 
 .header {
 	margin:0 auto;
-	width: 920px;
+	width: 720px;
 }
 
 .logo {
@@ -48,7 +48,44 @@ a:hover {
 	padding:10px 12px 0 6px;
 }
 
+.userbox .avatarname {
+	display:inline;
+}
+
+.userbox .avatarname a {
+	color:#000000;
+}
+
+.userbox .avatarname img {
+	border:1px solid #FFFFFF;
+	margin-right:3px;
+	margin-top:-3px;
+	vertical-align:middle;
+}
+
 .userbox a {
+	font-weight:bold;
+}
+
+ul.usernav {
+	display:inline;
+	margin:0;
+}
+
+ul.usernav li {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/images/bar_separator.gif) no-repeat scroll 5px 0;
+	display:inline;
+	list-style-type:none;
+	margin-left:-35px;
+	padding:0 0 0 15px;
+}
+
+.title {
+	color:#495961; 
+	font-size:30px; 
 	font-weight:bold;
 }
 
@@ -139,7 +176,7 @@ ul.stats li span {
 
 .content {
   margin: 0 auto;
-  width: 900px;
+  width: 700px;
 }
 
 #login {
@@ -237,4 +274,12 @@ ul.stats li span {
 	background-position:100% -30px;
 }
 
+.bio {
+	font-size: 14px;
+	width:400px;
+	color:#495961;
+	margin-top: 20px;
+	font-family: helvetica,arial,freesans,clean,sans-serif;
+	line-height: 1.4em;
+}
 
