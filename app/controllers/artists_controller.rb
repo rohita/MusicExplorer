@@ -2,6 +2,13 @@ class ArtistsController < ApplicationController
   before_filter :authorize
   
   def show
-    @artist = Artist.find(params[:id])
+    @artist = LfmArtist.find(params[:id])
   end
+  
+  def album
+  end
+  
+  def track
+  end
+  
 end
