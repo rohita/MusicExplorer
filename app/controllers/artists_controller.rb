@@ -9,6 +9,7 @@ class ArtistsController < ApplicationController
   end
   
   def track
+    @track = LfmTrack.find(params[:track_id], params[:artist_id])
   end
   
 end

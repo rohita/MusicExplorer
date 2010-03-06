@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 LASTFM_URL = "http://ws.audioscrobbler.com/2.0/"
+LASTFM_KEY = "00f4a88d42afdabbd1b8824172dac9e8"
 
 class LfmArtist
   
