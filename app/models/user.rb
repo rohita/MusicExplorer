@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
     validates_confirmation_of :password
     
     has_one :library
+    has_many :favorite
     
     def self.authenticate(email, password)
       user = self.find_by_email(email)

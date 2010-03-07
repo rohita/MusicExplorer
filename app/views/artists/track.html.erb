@@ -7,7 +7,13 @@
 			<%= link_to @track.artist_name, artist_path(:id => @track.artist_name) %>  &raquo; 
 			<%= link_to @track.album_name, "/artists/" + @track.artist_name + "/" + @track.album_name %>  &raquo;
 		</div>
-		<div class="title"><%= @track.name %> (<%= sprintf("%d:%02d",@track.duration.to_i / 60000, (@track.duration.to_i/1000) % 60) %>)</div>
+		<div class="title">
+			<div style="float:left;padding: 5px 5px 0 0;">
+				<%= render(:partial => "favicon", :locals => {:favorite => @track.is_favorite_of(current_user.id),
+															  :path => "/artists/" + @track.artist_name + "/_/" + @track.name }) %>
+			</div>
+			<%= @track.name %> (<%= sprintf("%d:%02d",@track.duration.to_i / 60000, (@track.duration.to_i/1000) % 60) %>)
+		</div>
 		<div class="bio"><%= @track.description %></div>
 		<div style="margin-top:30px;border-top:1px dotted #CCCCCC;width:390px;">
 			<div style="color:#D51007;padding-top:10px;font-size:18px;font-weight:bold;">Explore Similar Tracks</div>

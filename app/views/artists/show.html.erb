@@ -16,7 +16,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="title"><%= @artist.name %></div>
+		<div class="title">
+			<div style="float:left;padding: 5px 5px 0 0;">
+				<%= render(:partial => "favicon", :locals => {:favorite => @artist.is_favorite_of(current_user.id),
+															  :path => artist_path }) %>
+			</div>
+			<%= @artist.name %>
+		</div>
 		<div class="bio"><%= @artist.bio %></div>
 	
 		

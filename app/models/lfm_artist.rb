@@ -43,4 +43,12 @@ class LfmArtist
     return artist
   end
   
+  def is_favorite_of(user_id)
+    favorite = Favorite.find(:first, 
+      :conditions => ["user_id = ? and artist_id = ? and album_id = '_' and track_id = '_'", user_id, name])
+    
+    return true unless favorite.nil?
+    return false
+  end
+  
 end
