@@ -11,8 +11,24 @@
 		<div class="bio"><%= @track.description %></div>
 		<div style="margin-top:30px;border-top:1px dotted #CCCCCC;width:390px;">
 			<div style="color:#D51007;padding-top:10px;font-size:18px;font-weight:bold;">Explore Similar Tracks</div>
-		<div>
+		</div>
+		
+		<div style="padding-top:20px;font-size:12px;line-height:1.4em;width:390px;">		
+			<% @track.similar_tracks.each do |track| %>
+			<div style="float:left;width:190px;">
+				<div style="border:1px solid #CCCCCC;float:left;margin-right:10px;">
+					<div style="border:1px solid #FFFFFF;"><%= image_tag track.image_url %></div>
+				</div>
+				<div>			
+				<b><%= link_to track.name, "/artists/" + track.artist_name + "/_/" + track.name %></b> 
+				(<%= sprintf("%d:%02d",track.duration.to_i / 60000, (track.duration.to_i/1000) % 60) %>)<br /> 
+				<%= link_to track.artist_name, artist_path(:id => track.artist_name) %>
+				</div>
+				<div style="padding-bottom:10px;"></div>
+			</div>
+			<% end %>
+		</div>
 	</div>
-
-	
 </div>
+<div style="clear:both;">&nbsp;</div>
+&nbsp;<br />&nbsp;<br />
