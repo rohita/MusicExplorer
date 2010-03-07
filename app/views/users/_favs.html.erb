@@ -24,13 +24,23 @@
 						<%= link_to truncate(track.artist, :length => 25), artist_path(:id => track.artist) %>
 					<% end -%>
 				</td>
-				<td><%= truncate(track.album, :length => 36) %>&nbsp;</td>
+				<td>
+					<% if track.album == "" %>
+						&nbsp;
+					<% else %>
+						<%= link_to truncate(track.album, :length => 36), "/artists/" + track.artist + "/" + track.album %>
+					<% end -%>
+				</td>
 				<td width="20px"><%= track.play_count %></td>
 			</tr>
 			<% end %>
 		</table>
 		<div style="margin-top:10px;">
-		<%= link_to_remote "<span>More</span>", :update => "fav", :url => user_path(:n => limit.to_i+10) , :method => :get, :html => { :class  => "minibutton" } %>
+		<%= link_to_remote "<span>More</span>", 
+							:update => "fav", 
+							:url => user_path(:n => limit.to_i+10) , 
+							:method => :get, 
+							:html => { :class  => "minibutton" } %>
 		</div>
 	</div>
 </div>

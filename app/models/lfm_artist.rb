@@ -1,7 +1,5 @@
 require 'nokogiri'
 require 'open-uri'
-LASTFM_URL = "http://ws.audioscrobbler.com/2.0/"
-LASTFM_KEY = "00f4a88d42afdabbd1b8824172dac9e8"
 
 class LfmArtist
   
@@ -9,7 +7,7 @@ class LfmArtist
   attr_accessor :image_url
   attr_accessor :bio
   attr_accessor :similar_artists
-  attr_accessor :events
+  attr_accessor :top_tracks
   
   def self.find(input_name)
     name_url_encoded = URI.escape(input_name, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
@@ -28,6 +26,18 @@ class LfmArtist
       sim.image_url = node.xpath("image[@size='medium']").first.content
       sim.image_url["/64/"] = "/64s/"
       artist.similar_artists << sim
+    end
+    
+    lfm_url = "#{LASTFM_URL}?method=artist.gettoptracks&api_key=#{LASTFM_KEY}"
+    toptracks_url = "#{lfm_url}&artist=#{name_url_encoded}"
+    doc = Nokogiri::XML(open(toptracks_url))
+    
+    i = 0
+    artist.top_tracks = []
+    doc.xpath('/lfm/toptracks/track').each do |track_node|
+      artist.top_tracks << track_node.xpath("name").inner_text
+      i += 1
+      break if i == 10
     end
     
     return artist

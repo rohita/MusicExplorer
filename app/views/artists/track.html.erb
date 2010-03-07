@@ -1,11 +1,11 @@
 <div style="margin-top: 20px;">
 	<div>
 		<div style="float: right; border:1px solid #CCCCCC;margin-left:10px;margin-bottom:10px;">
-			<div style="border:1px solid #FFFFFF;"><%= image_tag @track.album.image_url, :title => @track.album.title %></div>
+			<div style="border:1px solid #FFFFFF;"><%= image_tag @track.image_url, :title => @track.album_name %></div>
 		</div>
 		<div style="font-size:14px;">
 			<%= link_to @track.artist_name, artist_path(:id => @track.artist_name) %>  &raquo; 
-			<%= link_to @track.album.title, "/artists/" + @track.artist_name + "/" + @track.album.title %>  &raquo;
+			<%= link_to @track.album_name, "/artists/" + @track.artist_name + "/" + @track.album_name %>  &raquo;
 		</div>
 		<div class="title"><%= @track.name %> (<%= sprintf("%d:%02d",@track.duration.to_i / 60000, (@track.duration.to_i/1000) % 60) %>)</div>
 		<div class="bio"><%= @track.description %></div>

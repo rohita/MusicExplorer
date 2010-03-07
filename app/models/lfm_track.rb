@@ -6,7 +6,8 @@ class LfmTrack
   attr_accessor :name
   attr_accessor :duration
   attr_accessor :artist_name
-  attr_accessor :album
+  attr_accessor :album_name
+  attr_accessor :image_url
   attr_accessor :description
   attr_accessor :similar_tracks
   
@@ -25,13 +26,9 @@ class LfmTrack
     track.description = "No description available."
     summary = doc.xpath("lfm/track/wiki/summary").first
     track.description = summary.content unless summary.nil? 
-    
-    album = LfmAlbum.new
-    album.title = doc.xpath("lfm/track/album/title").first.content
-    album.artist_name = doc.xpath("lfm/track/album/artist").first.content
-    album.image_url = doc.xpath("lfm/track/album/image[@size='extralarge']").first.content
+    track.album_name = doc.xpath("lfm/track/album/title").first.content
+    track.image_url = doc.xpath("lfm/track/album/image[@size='extralarge']").first.content
 
-    track.album = album
     return track
   end
   

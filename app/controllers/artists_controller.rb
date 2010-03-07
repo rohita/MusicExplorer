@@ -6,6 +6,7 @@ class ArtistsController < ApplicationController
   end
   
   def album
+    @album = LfmAlbum.find(params[:album_id], params[:artist_id])
   end
   
   def track

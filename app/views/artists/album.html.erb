@@ -1,0 +1,15 @@
+<div style="margin-top: 20px;">
+	<div>
+		<div style="float: right; border:1px solid #CCCCCC;margin-left:10px;margin-bottom:10px;">
+			<div style="border:1px solid #FFFFFF;"><%= image_tag @album.image_url, :title => @album.title %></div>
+		</div>
+		<div style="font-size:14px;">
+			<%= link_to @album.artist_name, artist_path(:id => @album.artist_name) %>  &raquo; 
+		</div>
+		<div class="title"><%= @album.title %></div>
+		<div style="margin-top:5px;font-size:12px;color:#999999;">Release Date: <%= @album.release_date %><div>
+		<div class="bio"><%= @album.description %></div>
+	</div>
+
+	
+</div>

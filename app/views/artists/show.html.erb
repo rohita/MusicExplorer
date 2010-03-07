@@ -1,28 +1,43 @@
 <div style="margin-top: 20px;">
 	<div>
-		<div style="float: right; border:1px solid #CCCCCC;margin-left:10px;margin-bottom:10px;">
-			<div style="border:1px solid #FFFFFF;"><%= image_tag @artist.image_url, :title => @artist.name %></div>
+		<div style="float: right;margin-left:10px;">
+			<div style="border:1px solid #CCCCCC;margin-bottom:10px;">
+				<div style="border:1px solid #FFFFFF;"><%= image_tag @artist.image_url, :title => @artist.name %></div>
+			</div>
+			<div style="margin-top:20px;padding-left:20px;border-left:1px dotted #CCCCCC;">
+				<div style="color:#D51007;font-size:18px;font-weight:bold;">Top <%= @artist.top_tracks.count %> Tracks</div>
+			
+				<div style="padding-top:10px;font-size:13px;line-height:1.3em;">
+					<% i = 1 %>
+					<% @artist.top_tracks.each do |track| %>
+					<%= i %>.&nbsp;&nbsp;<%= link_to track, "/artists/" + @artist.name + "/_/" + track %><br />
+					<% i += 1 %>
+					<% end %>
+				</div>
+			</div>
 		</div>
 		<div class="title"><%= @artist.name %></div>
 		<div class="bio"><%= @artist.bio %></div>
 	
-
-	<div style="margin-top:30px;border-top:1px dotted #CCCCCC;width:430px;">
-		<div style="color:#D51007;padding-top:10px;font-size:18px;font-weight:bold;">Explore Similar Artists</div>
-	<div>
-	<div style="margin-top:20px;">
-		<% @artist.similar_artists.each do |sim| %>
-		<div style="float:left;padding-right:15px;">
-			<div style="border:1px solid #CCCCCC;display:block;">
-			<div style="border:1px solid #FFFFFF;height:52px;overflow:hidden;">
-			<%= link_to image_tag(sim.image_url, :border => 0), artist_path(:id => sim.name.gsub(".", "%2E").gsub("'","%27")) %>
-			</div>
-			</div>
-			<div style="font-size:11px;width:64px;font-weight:bold;padding-top:5px;">
-			<%= link_to sim.name, artist_path(:id => sim.name.gsub(".", "%2E").gsub("'","%27")) %></div>
+		
+		<div style="margin-top:30px;border-top:1px dotted #CCCCCC;width:430px;">
+			<div style="color:#D51007;padding-top:10px;font-size:18px;font-weight:bold;">Explore Similar Artists</div>
 		</div>
-		<% end%>	
-	</div>	
+		<div style="margin-top:20px;">
+			<% @artist.similar_artists.each do |sim| %>
+			<div style="float:left;padding-right:15px;">
+				<div style="border:1px solid #CCCCCC;display:block;">
+				<div style="border:1px solid #FFFFFF;height:52px;overflow:hidden;">
+				<%= link_to image_tag(sim.image_url, :border => 0), artist_path(:id => sim.name.gsub(".", "%2E").gsub("'","%27")) %>
+				</div>
+				</div>
+				<div style="font-size:11px;width:64px;font-weight:bold;padding-top:5px;">
+				<%= link_to sim.name, artist_path(:id => sim.name.gsub(".", "%2E").gsub("'","%27")) %></div>
+			</div>
+			<% end %>	
+		</div>	
+		
+		
 	</div>
 </div>
 
