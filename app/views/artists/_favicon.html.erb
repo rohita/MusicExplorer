@@ -1,10 +1,10 @@
 <% if favorite %>
-<%= link_to image_tag("favorite.png", :height => 27, :mouseover => "favorite_off.png", :border => 0 ),
+<%= link_to image_tag("favorite.png", :height => 27, :border => 0 ),
  			path, 
  			:method => :put, 
 			:title => "Remove from Favorites" %>
 <% else %>
-<%= link_to image_tag("favorite_off.png", :height => 27, :mouseover => "favorite.png", :border => 0 ),
+<%= link_to image_tag("favorite_off.png", :height => 27, :border => 0 ),
  			path, 
  			:method => :put, 
 			:title => "Add to Favorites" %>

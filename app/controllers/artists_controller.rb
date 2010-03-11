@@ -1,6 +1,8 @@
 class ArtistsController < ApplicationController
   before_filter :authorize
   
+  caches_action :show, :album, :track,:layout => false
+  
   def show
     @artist = LfmArtist.find(params[:id])
   end
@@ -14,6 +16,7 @@ class ArtistsController < ApplicationController
   end
   
   def update
+    
     if !params[:id].nil? 
       favorite = Favorite.find(:first, 
         :conditions => ["user_id = ? and artist_id = ? and album_id = '_' and track_id = '_'", current_user.id, params[:id]])
@@ -29,6 +32,7 @@ class ArtistsController < ApplicationController
         favorite.destroy
       end
       
+      expire_action :action => :show
       @artist = LfmArtist.find(params[:id])
       render :show
     elsif params[:track_id].nil?
@@ -47,6 +51,7 @@ class ArtistsController < ApplicationController
         favorite.destroy
       end
       
+      expire_action :action => :album
       @album = LfmAlbum.find(params[:album_id], params[:artist_id])
       render :album
     else
@@ -64,6 +69,8 @@ class ArtistsController < ApplicationController
       else 
         favorite.destroy
       end
+      
+      expire_action :action => :track
       @track = LfmTrack.find(params[:track_id], params[:artist_id])
       render :track
     end    

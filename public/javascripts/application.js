@@ -9,3 +9,9 @@ function showUpload() {
 	$("#upload").show();
 }
 
+function showFileStatus() {
+	$("#upload").hide();
+	$("#file-status").show();
+}
+
+
