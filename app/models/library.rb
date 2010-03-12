@@ -9,11 +9,11 @@ class Library < ActiveRecord::Base
   end
 
   def number_of_artists
-    tracks.count (:artist, :conditions => "artist <> ''", :distinct => true) 
+    tracks.count(:artist, :conditions => "artist <> ''", :distinct => true) 
   end
 
   def number_of_albums
-    tracks.count (:album, :conditions => "album <> ''", :distinct => true)    
+    tracks.count(:album, :conditions => "album <> ''", :distinct => true)    
   end
 
   def total_playtime

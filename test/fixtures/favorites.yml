@@ -5,3 +5,15 @@
 #
 # two:
 #   column: value
+
+one:
+    user_id: 1
+    artist_id: Portishead
+    album_id: Dummy
+    track_id: _
+    
+two:
+    user_id: 1
+    artist_id: Portishead
+    album_id: _
+    track_id: _
