@@ -31,10 +31,6 @@ class LfmArtistTest < ActiveSupport::TestCase
     assert_equal "Hooverphonic", @artist.similar_artists[4].name
     
     assert_equal "http://userserve-ak.last.fm/serve/64s/135605.jpg", @artist.similar_artists[0].image_url
-    assert_equal "http://userserve-ak.last.fm/serve/64s/41665797.png", @artist.similar_artists[1].image_url
-    assert_equal "http://userserve-ak.last.fm/serve/64s/28182753.jpg", @artist.similar_artists[2].image_url
-    assert_equal "http://userserve-ak.last.fm/serve/64s/35040.jpg", @artist.similar_artists[3].image_url
-    assert_equal "http://userserve-ak.last.fm/serve/64s/40553471.png", @artist.similar_artists[4].image_url
   end
   
   test "can get top tracks" do

@@ -17,3 +17,9 @@ two:
     artist_id: Portishead
     album_id: _
     track_id: _
+
+three:
+    user_id: 1
+    artist_id: Portishead
+    album_id: _
+    track_id: Glory Box

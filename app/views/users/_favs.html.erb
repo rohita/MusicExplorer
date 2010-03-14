@@ -21,7 +21,7 @@
 					<% if track.artist == "" %>
 						&nbsp;
 					<% else %>
-						<%= link_to truncate(track.artist, :length => 25), artist_path(:id => track.artist) %>
+						<%= link_to truncate(track.artist, :length => 25), artist_path(:id => track.artist.gsub(".", "%2E")) %>
 					<% end -%>
 				</td>
 				<td>

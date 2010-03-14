@@ -4,7 +4,8 @@ one:
     id: 1
     name: Rohit Agarwal
     email: abc@abc.com
-    
+    hashed_password: 3c9a0880f493e7a14243778e53793424162500ce
+    salt: "21835856000.310745445663162"
     
     
 #

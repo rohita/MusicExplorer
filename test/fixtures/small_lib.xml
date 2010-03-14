@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Application Version</key><string>8.0.2</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/</string>
+	<key>Library Persistent ID</key><string>4F486CBC255B11E1</string>
+	<key>Tracks</key>
+	<dict>
+		<key>913</key>
+		<dict>
+			<key>Track ID</key><integer>913</integer>
+			<key>Name</key><string>3 O'Clock Blues / Darlin' You Know I Love You</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4751455</integer>
+			<key>Total Time</key><integer>378070</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:35Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>100</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3230402051</integer>
+			<key>Play Date UTC</key><date>2006-05-14T05:54:11Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D007</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/05%203%20O'Clock%20Blues%20_%20Darlin'%20You%20Know%20I%20Love%20You.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>915</key>
+		<dict>
+			<key>Track ID</key><integer>915</integer>
+			<key>Name</key><string>Every Day I Have The Blues</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1312050</integer>
+			<key>Total Time</key><integer>102504</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:34Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>101</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>10</integer>
+			<key>Play Date</key><integer>3295609068</integer>
+			<key>Play Date UTC</key><date>2008-06-06T22:57:48Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D009</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/02%20Every%20Day%20I%20Have%20The%20Blues.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>917</key>
+		<dict>
+			<key>Track ID</key><integer>917</integer>
+			<key>Name</key><string>How Blue Can You Get?</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3913789</integer>
+			<key>Total Time</key><integer>312084</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:35Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>100</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3272633627</integer>
+			<key>Play Date UTC</key><date>2007-09-15T00:53:47Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D00B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/03%20How%20Blue%20Can%20You%20Get_.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>919</key>
+		<dict>
+			<key>Track ID</key><integer>919</integer>
+			<key>Name</key><string>Introduction</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1380216</integer>
+			<key>Total Time</key><integer>111490</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:34Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>98</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3112251243</integer>
+			<key>Play Date UTC</key><date>2002-08-15T18:14:03Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D00D</string>
+			<key>Disabled</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/01%20Introduction.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>921</key>
+		<dict>
+			<key>Track ID</key><integer>921</integer>
+			<key>Name</key><string>Please Accept My Love</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2346651</integer>
+			<key>Total Time</key><integer>187742</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:36Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>99</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3285796014</integer>
+			<key>Play Date UTC</key><date>2008-02-14T09:06:54Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D00F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/08%20Please%20Accept%20My%20Love.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>923</key>
+		<dict>
+			<key>Track ID</key><integer>923</integer>
+			<key>Name</key><string>Sweet Sixteen</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3279528</integer>
+			<key>Total Time</key><integer>261015</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:36Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>100</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3273483331</integer>
+			<key>Play Date UTC</key><date>2007-09-24T20:55:31Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D011</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/06%20Sweet%20Sixteen.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>925</key>
+		<dict>
+			<key>Track ID</key><integer>925</integer>
+			<key>Name</key><string>The Thrill Is Gone</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4748398</integer>
+			<key>Total Time</key><integer>378984</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:36Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>100</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3278759189</integer>
+			<key>Play Date UTC</key><date>2007-11-24T22:26:29Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Thrill Is Gone</string>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D013</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/07%20The%20Thrill%20Is%20Gone.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>927</key>
+		<dict>
+			<key>Track ID</key><integer>927</integer>
+			<key>Name</key><string>Worry, Worry, Worry</string>
+			<key>Artist</key><string>B.B. King</string>
+			<key>Album</key><string>Live In Cook County Jail</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7435772</integer>
+			<key>Total Time</key><integer>595226</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2004-10-14T18:24:35Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>99</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3305468023</integer>
+			<key>Play Date UTC</key><date>2008-09-29T01:33:43Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2008-06-11T00:03:37Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D015</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/B.B.%20King/Live%20In%20Cook%20County%20Jail/04%20Worry,%20Worry,%20Worry.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>929</key>
+		<dict>
+			<key>Track ID</key><integer>929</integer>
+			<key>Name</key><string>Crowds</string>
+			<key>Artist</key><string>Bauhaus</string>
+			<key>Album</key><string>1979-1983 Volume Two</string>
+			<key>Genre</key><string>Goth</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>3171734</integer>
+			<key>Total Time</key><integer>189194</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1986</integer>
+			<key>Date Modified</key><date>2004-10-13T21:34:10Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3230381400</integer>
+			<key>Play Date UTC</key><date>2006-05-14T00:10:00Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D035</string>
+			<key>Disabled</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/Bauhaus/1979-1983%20Volume%20Two/17%20Crowds.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>931</key>
+		<dict>
+			<key>Track ID</key><integer>931</integer>
+			<key>Name</key><string>Hollow Hills</string>
+			<key>Artist</key><string>Bauhaus</string>
+			<key>Album</key><string>1979-1983 Volume Two</string>
+			<key>Genre</key><string>Goth</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>4751106</integer>
+			<key>Total Time</key><integer>287647</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1986</integer>
+			<key>Date Modified</key><date>2004-10-13T21:34:10Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3281793015</integer>
+			<key>Play Date UTC</key><date>2007-12-30T01:10:15Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2007-10-21T03:49:38Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D037</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/Bauhaus/1979-1983%20Volume%20Two/02%20Hollow%20Hills.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>933</key>
+		<dict>
+			<key>Track ID</key><integer>933</integer>
+			<key>Name</key><string>In Fear Of Fear</string>
+			<key>Artist</key><string>Bauhaus</string>
+			<key>Album</key><string>1979-1983 Volume Two</string>
+			<key>Genre</key><string>Goth</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2978173</integer>
+			<key>Total Time</key><integer>177097</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1986</integer>
+			<key>Date Modified</key><date>2004-10-13T21:34:11Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3272532292</integer>
+			<key>Play Date UTC</key><date>2007-09-13T20:44:52Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D039</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/Bauhaus/1979-1983%20Volume%20Two/03%20In%20Fear%20Of%20Fear.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>935</key>
+		<dict>
+			<key>Track ID</key><integer>935</integer>
+			<key>Name</key><string>Kick In The Eye</string>
+			<key>Artist</key><string>Bauhaus</string>
+			<key>Album</key><string>1979-1983 Volume Two</string>
+			<key>Genre</key><string>Goth</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>3543227</integer>
+			<key>Total Time</key><integer>212391</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1986</integer>
+			<key>Date Modified</key><date>2004-10-13T21:34:12Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>24</integer>
+			<key>Play Date</key><integer>3308124223</integer>
+			<key>Play Date UTC</key><date>2008-10-29T19:23:43Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D03B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/Bauhaus/1979-1983%20Volume%20Two/01%20Kick%20In%20The%20Eye.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>937</key>
+		<dict>
+			<key>Track ID</key><integer>937</integer>
+			<key>Name</key><string>Lagartija Nick</string>
+			<key>Artist</key><string>Bauhaus</string>
+			<key>Album</key><string>1979-1983 Volume Two</string>
+			<key>Genre</key><string>Goth</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>3116168</integer>
+			<key>Total Time</key><integer>185711</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1986</integer>
+			<key>Date Modified</key><date>2004-10-13T21:34:12Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3308557650</integer>
+			<key>Play Date UTC</key><date>2008-11-03T19:47:30Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2008-03-24T18:23:27Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D03D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/Bauhaus/1979-1983%20Volume%20Two/06%20Lagartija%20Nick.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>939</key>
+		<dict>
+			<key>Track ID</key><integer>939</integer>
+			<key>Name</key><string>Paranoia, Paranoia</string>
+			<key>Artist</key><string>Bauhaus</string>
+			<key>Album</key><string>1979-1983 Volume Two</string>
+			<key>Genre</key><string>Goth</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>5088781</integer>
+			<key>Total Time</key><integer>308522</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1986</integer>
+			<key>Date Modified</key><date>2004-10-13T21:34:13Z</date>
+			<key>Date Added</key><date>2002-07-17T20:41:08Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3275034453</integer>
+			<key>Play Date UTC</key><date>2007-10-12T19:47:33Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CF1F47A0CA8D03F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/ryan/Music/iTunes/iTunes%20Music/Bauhaus/1979-1983%20Volume%20Two/07%20Paranoia,%20Paranoia.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>948</key>
+		<dict>
+			<key>Track ID</key><integer>948</integer>
+			<key>Name</key><string>Firebreather</string>
+			<key>Artist</key><string>Thrice</string>
+			<key>Album Artist</key><string>Thrice</string>
+			<key>Composer</key><string>Dustin Kensrue &#38; Thrice</string>
+			<key>Album</key><string>The Alchemy Index: Vol. 1 &#38; 2: Fire &#38; Water</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>4287021</integer>
+			<key>Total Time</key><integer>264311</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2007-10-17T02:53:52Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3306562824</integer>
+			<key>Play Date UTC</key><date>2008-10-11T17:40:24Z</date>
+			<key>Release Date</key><date>2007-10-16T07:00:00Z</date>
+			<key>Normalization</key><integer>7961</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Alchemy Index: Vol. 1 &#38; 2: Fire &#38; Water</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB2F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Thrice/The%20Alchemy%20Index_%20Vol.%201%20&#38;%202_%20Fire%20&#38;%20Water/01%20Firebreather.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>950</key>
+		<dict>
+			<key>Track ID</key><integer>950</integer>
+			<key>Name</key><string>I Don't Love You</string>
+			<key>Artist</key><string>My Chemical Romance</string>
+			<key>Album Artist</key><string>My Chemical Romance</string>
+			<key>Composer</key><string>My Chemical Romance</string>
+			<key>Album</key><string>The Black Parade</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5722990</integer>
+			<key>Total Time</key><integer>238288</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2006-12-10T12:16:39Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3298364297</integer>
+			<key>Play Date UTC</key><date>2008-07-08T20:18:17Z</date>
+			<key>Sort Album</key><string>Black Parade</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB31</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/My%20Chemical%20Romance/The%20Black%20Parade/06%20I%20Don't%20Love%20You.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>952</key>
+		<dict>
+			<key>Track ID</key><integer>952</integer>
+			<key>Name</key><string>This Is How I Disappear</string>
+			<key>Artist</key><string>My Chemical Romance</string>
+			<key>Album Artist</key><string>My Chemical Romance</string>
+			<key>Composer</key><string>My Chemical Romance</string>
+			<key>Album</key><string>The Black Parade</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5732380</integer>
+			<key>Total Time</key><integer>238680</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2006-12-10T12:16:39Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3310553498</integer>
+			<key>Play Date UTC</key><date>2008-11-26T22:11:38Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2008-05-12T21:15:14Z</date>
+			<key>Sort Album</key><string>Black Parade</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB32</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/My%20Chemical%20Romance/The%20Black%20Parade/03%20This%20Is%20How%20I%20Disappear.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>954</key>
+		<dict>
+			<key>Track ID</key><integer>954</integer>
+			<key>Name</key><string>Rumors of My Demise Have Been Greatly Exaggerated</string>
+			<key>Artist</key><string>Rise Against</string>
+			<key>Album Artist</key><string>Rise Against</string>
+			<key>Album</key><string>Siren Song of the Counter Culture</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>4239862</integer>
+			<key>Total Time</key><integer>254210</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2005-10-13T16:16:23Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>10</integer>
+			<key>Play Date</key><integer>3310550318</integer>
+			<key>Play Date UTC</key><date>2008-11-26T21:18:38Z</date>
+			<key>Release Date</key><date>2004-08-10T07:00:00Z</date>
+			<key>Normalization</key><integer>8713</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB33</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Rise%20Against/Siren%20Song%20of%20the%20Counter%20Culture/12%20Rumors%20of%20My%20Demise%20Have%20Been%20Greatly%20Exaggerated.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>956</key>
+		<dict>
+			<key>Track ID</key><integer>956</integer>
+			<key>Name</key><string>The Jetset Life Is Gonna Kill You</string>
+			<key>Artist</key><string>My Chemical Romance</string>
+			<key>Album Artist</key><string>My Chemical Romance</string>
+			<key>Composer</key><string>My Chemical Romance</string>
+			<key>Album</key><string>Three Cheers for Sweet Revenge</string>
+			<key>Genre</key><string>Hardcore Punk</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3511867</integer>
+			<key>Total Time</key><integer>219219</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2006-07-23T17:36:02Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3304923983</integer>
+			<key>Play Date UTC</key><date>2008-09-22T18:26:23Z</date>
+			<key>Sort Name</key><string>Jetset Life Is Gonna Kill You</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB34</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/My%20Chemical%20Romance/Three%20Cheers%20for%20Sweet%20Revenge/07%20The%20Jetset%20Life%20Is%20Gonna%20Kill%20You.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>958</key>
+		<dict>
+			<key>Track ID</key><integer>958</integer>
+			<key>Name</key><string>Home</string>
+			<key>Artist</key><string>Foo Fighters</string>
+			<key>Album Artist</key><string>Foo Fighters</string>
+			<key>Composer</key><string>Foo Fighters</string>
+			<key>Album</key><string>Echoes, Silence, Patience &#38; Grace</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>4700919</integer>
+			<key>Total Time</key><integer>292662</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2008-02-11T15:04:42Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3301919065</integer>
+			<key>Play Date UTC</key><date>2008-08-18T23:44:25Z</date>
+			<key>Release Date</key><date>2007-09-24T07:00:00Z</date>
+			<key>Normalization</key><integer>4133</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB35</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Foo%20Fighters/Echoes,%20Silence,%20Patience%20&#38;%20Grace/12%20Home.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>960</key>
+		<dict>
+			<key>Track ID</key><integer>960</integer>
+			<key>Name</key><string>Everythings Just Wonderful</string>
+			<key>Artist</key><string>Lily Allen</string>
+			<key>Album Artist</key><string>Lily Allen</string>
+			<key>Album</key><string>Alright, Still</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>3571792</integer>
+			<key>Total Time</key><integer>208536</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2007-02-05T15:48:32Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3303826891</integer>
+			<key>Play Date UTC</key><date>2008-09-10T01:41:31Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2008-10-17T23:42:14Z</date>
+			<key>Release Date</key><date>2007-01-29T08:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB36</string>
+			<key>Explicit</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Lily%20Allen/Alright,%20Still/04%20Everythings%20Just%20Wonderful.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>962</key>
+		<dict>
+			<key>Track ID</key><integer>962</integer>
+			<key>Name</key><string>Liquor Store</string>
+			<key>Artist</key><string>Less Than Jake</string>
+			<key>Album</key><string>Pezcore</string>
+			<key>Genre</key><string>Other</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2635273</integer>
+			<key>Total Time</key><integer>164702</integer>
+			<key>Date Modified</key><date>2006-02-20T04:54:23Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3309334685</integer>
+			<key>Play Date UTC</key><date>2008-11-12T19:38:05Z</date>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB37</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Pezcore/Liquor%20Store.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>964</key>
+		<dict>
+			<key>Track ID</key><integer>964</integer>
+			<key>Name</key><string>Song 2</string>
+			<key>Artist</key><string>Blur</string>
+			<key>Album Artist</key><string>Blur</string>
+			<key>Composer</key><string>Albarn, Coxon, James, Rowntree</string>
+			<key>Album</key><string>Blur</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>2027062</integer>
+			<key>Total Time</key><integer>121346</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>1997</integer>
+			<key>Date Modified</key><date>2008-05-06T17:40:17Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>16</integer>
+			<key>Play Date</key><integer>3310391273</integer>
+			<key>Play Date UTC</key><date>2008-11-25T01:07:53Z</date>
+			<key>Release Date</key><date>1997-03-11T08:00:00Z</date>
+			<key>Normalization</key><integer>5890</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB38</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Blur/Blur/CUJI.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>966</key>
+		<dict>
+			<key>Track ID</key><integer>966</integer>
+			<key>Name</key><string>Smile</string>
+			<key>Artist</key><string>Lily Allen</string>
+			<key>Album Artist</key><string>Lily Allen</string>
+			<key>Album</key><string>Alright, Still</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>3379627</integer>
+			<key>Total Time</key><integer>196973</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2007-02-05T15:48:26Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3294068684</integer>
+			<key>Play Date UTC</key><date>2008-05-20T03:04:44Z</date>
+			<key>Release Date</key><date>2007-01-29T08:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB39</string>
+			<key>Explicit</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Lily%20Allen/Alright,%20Still/CUMU.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>968</key>
+		<dict>
+			<key>Track ID</key><integer>968</integer>
+			<key>Name</key><string>Lazy Eye</string>
+			<key>Artist</key><string>Silversun Pickups</string>
+			<key>Album Artist</key><string>Silversun Pickups</string>
+			<key>Album</key><string>Carnavas</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>5743325</integer>
+			<key>Total Time</key><integer>354358</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2008-01-06T16:38:05Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3309264123</integer>
+			<key>Play Date UTC</key><date>2008-11-12T00:02:03Z</date>
+			<key>Release Date</key><date>2006-07-25T07:00:00Z</date>
+			<key>Normalization</key><integer>8138</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB3A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Silversun%20Pickups/Carnavas/CZDT.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>970</key>
+		<dict>
+			<key>Track ID</key><integer>970</integer>
+			<key>Name</key><string>Trust</string>
+			<key>Artist</key><string>Thrice</string>
+			<key>Composer</key><string>Dustin Kensrue, Teppei Teranishi, Eddie Breckenridge, Riley Breckenridge</string>
+			<key>Album</key><string>The Illusion Of Safety</string>
+			<key>Genre</key><string>Alternative &#38; Punk</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2847025</integer>
+			<key>Total Time</key><integer>174566</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2001</integer>
+			<key>Date Modified</key><date>2006-02-21T11:21:26Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3307948217</integer>
+			<key>Play Date UTC</key><date>2008-10-27T18:30:17Z</date>
+			<key>Normalization</key><integer>4544</integer>
+			<key>Sort Album</key><string>Illusion Of Safety</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB3B</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Thrice/The%20Illusion%20Of%20Safety/DBHE.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>972</key>
+		<dict>
+			<key>Track ID</key><integer>972</integer>
+			<key>Name</key><string>Lost Continent</string>
+			<key>Artist</key><string>Thrice</string>
+			<key>Album Artist</key><string>Thrice</string>
+			<key>Composer</key><string>Dustin Kensrue &#38; Thrice</string>
+			<key>Album</key><string>The Alchemy Index: Vol. 1 &#38; 2: Fire &#38; Water</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>4380303</integer>
+			<key>Total Time</key><integer>270162</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2007-10-17T02:56:43Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3300344360</integer>
+			<key>Play Date UTC</key><date>2008-07-31T18:19:20Z</date>
+			<key>Release Date</key><date>2007-10-16T07:00:00Z</date>
+			<key>Normalization</key><integer>6493</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Alchemy Index: Vol. 1 &#38; 2: Fire &#38; Water</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB3C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Thrice/The%20Alchemy%20Index_%20Vol.%201%20&#38;%202_%20Fire%20&#38;%20Water/DFVW.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>974</key>
+		<dict>
+			<key>Track ID</key><integer>974</integer>
+			<key>Name</key><string>Vampires Will Never Hurt You</string>
+			<key>Artist</key><string>My Chemical Romance</string>
+			<key>Album Artist</key><string>My Chemical Romance</string>
+			<key>Composer</key><string>My Chemical Romance</string>
+			<key>Album</key><string>I Brought You My Bullets You Brought Me Your Love</string>
+			<key>Genre</key><string>Hardcore Punk</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5261182</integer>
+			<key>Total Time</key><integer>328542</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2006-07-18T08:37:57Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3301294949</integer>
+			<key>Play Date UTC</key><date>2008-08-11T18:22:29Z</date>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB3D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/My%20Chemical%20Romance/I%20Brought%20You%20My%20Bullets%20You%20Brought%20Me%20Your%20Love/DOZM.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>976</key>
+		<dict>
+			<key>Track ID</key><integer>976</integer>
+			<key>Name</key><string>Short Fuse Burning</string>
+			<key>Artist</key><string>Less Than Jake</string>
+			<key>Album Artist</key><string>Less Than Jake</string>
+			<key>Album</key><string>Anthem</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>2281831</integer>
+			<key>Total Time</key><integer>139829</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2003</integer>
+			<key>Date Modified</key><date>2007-10-03T20:17:22Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3308900877</integer>
+			<key>Play Date UTC</key><date>2008-11-07T19:07:57Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2008-06-01T18:50:39Z</date>
+			<key>Release Date</key><date>2003-05-20T07:00:00Z</date>
+			<key>Normalization</key><integer>14069</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB3E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Anthem/DVUX.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>978</key>
+		<dict>
+			<key>Track ID</key><integer>978</integer>
+			<key>Name</key><string>The Arsonist</string>
+			<key>Artist</key><string>Thrice</string>
+			<key>Album Artist</key><string>Thrice</string>
+			<key>Composer</key><string>Dustin Kensrue &#38; Thrice</string>
+			<key>Album</key><string>The Alchemy Index: Vol. 1 &#38; 2: Fire &#38; Water</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>4111725</integer>
+			<key>Total Time</key><integer>253305</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2007-10-17T02:54:43Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3304925845</integer>
+			<key>Play Date UTC</key><date>2008-09-22T18:57:25Z</date>
+			<key>Release Date</key><date>2007-10-16T07:00:00Z</date>
+			<key>Normalization</key><integer>6452</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Alchemy Index: Vol. 1 &#38; 2: Fire &#38; Water</string>
+			<key>Sort Name</key><string>Arsonist</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB3F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Thrice/The%20Alchemy%20Index_%20Vol.%201%20&#38;%202_%20Fire%20&#38;%20Water/ECMO.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>980</key>
+		<dict>
+			<key>Track ID</key><integer>980</integer>
+			<key>Name</key><string>One Last Cigarette</string>
+			<key>Artist</key><string>Less Than Jake</string>
+			<key>Album</key><string>Pezcore</string>
+			<key>Genre</key><string>Punk Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6640939</integer>
+			<key>Total Time</key><integer>276688</integer>
+			<key>Track Number</key><integer>19</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2003-11-13T20:43:04Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB40</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Pezcore/EKXF.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>982</key>
+		<dict>
+			<key>Track ID</key><integer>982</integer>
+			<key>Name</key><string>Gainesville Rock City</string>
+			<key>Artist</key><string>Less Than Jake</string>
+			<key>Album</key><string>Borders &#38; Boundaries</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3002567</integer>
+			<key>Total Time</key><integer>187637</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2004-09-16T18:34:26Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3309937031</integer>
+			<key>Play Date UTC</key><date>2008-11-19T18:57:11Z</date>
+			<key>Normalization</key><integer>12144</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB41</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Borders%20&#38;%20Boundaries/ELCR.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>984</key>
+		<dict>
+			<key>Track ID</key><integer>984</integer>
+			<key>Name</key><string>The Approaching Curve</string>
+			<key>Artist</key><string>Rise Against</string>
+			<key>Album Artist</key><string>Rise Against</string>
+			<key>Composer</key><string>Brandon Barnes, Chris Chasse, Joe Principe &#38; Timothy Mcilrath</string>
+			<key>Album</key><string>The Sufferer &#38; the Witness</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>3707277</integer>
+			<key>Total Time</key><integer>224674</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2007-03-19T16:05:16Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3307524901</integer>
+			<key>Play Date UTC</key><date>2008-10-22T20:55:01Z</date>
+			<key>Release Date</key><date>2006-07-04T07:00:00Z</date>
+			<key>Normalization</key><integer>6613</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Sufferer &#38; the Witness</string>
+			<key>Sort Name</key><string>Approaching Curve</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB42</string>
+			<key>Explicit</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Rise%20Against/The%20Sufferer%20&#38;%20the%20Witness/EMCU.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>986</key>
+		<dict>
+			<key>Track ID</key><integer>986</integer>
+			<key>Name</key><string>A Subtle Dagger</string>
+			<key>Artist</key><string>Thrice</string>
+			<key>Composer</key><string>Dustin Kensrue, Teppei Teranishi, Eddie Breckenridge, Riley Breckenridge</string>
+			<key>Album</key><string>The Illusion Of Safety</string>
+			<key>Genre</key><string>Alternative &#38; Punk</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>1781111</integer>
+			<key>Total Time</key><integer>108040</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2001</integer>
+			<key>Date Modified</key><date>2006-02-21T11:19:55Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3309328020</integer>
+			<key>Play Date UTC</key><date>2008-11-12T17:47:00Z</date>
+			<key>Normalization</key><integer>6851</integer>
+			<key>Sort Album</key><string>Illusion Of Safety</string>
+			<key>Sort Name</key><string>Subtle Dagger</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB43</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Thrice/The%20Illusion%20Of%20Safety/EQFM.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>988</key>
+		<dict>
+			<key>Track ID</key><integer>988</integer>
+			<key>Name</key><string>Cancer</string>
+			<key>Artist</key><string>My Chemical Romance</string>
+			<key>Album Artist</key><string>My Chemical Romance</string>
+			<key>Composer</key><string>My Chemical Romance</string>
+			<key>Album</key><string>The Black Parade</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3429952</integer>
+			<key>Total Time</key><integer>142733</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2006-12-10T12:16:39Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3307531459</integer>
+			<key>Play Date UTC</key><date>2008-10-22T22:44:19Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2008-05-19T15:07:35Z</date>
+			<key>Sort Album</key><string>Black Parade</string>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB44</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/My%20Chemical%20Romance/The%20Black%20Parade/ERND.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>990</key>
+		<dict>
+			<key>Track ID</key><integer>990</integer>
+			<key>Name</key><string>Big</string>
+			<key>Artist</key><string>Less Than Jake</string>
+			<key>Album</key><string>Pezcore</string>
+			<key>Genre</key><string>Punk Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4462312</integer>
+			<key>Total Time</key><integer>185913</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2003-11-13T20:43:00Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3293191341</integer>
+			<key>Play Date UTC</key><date>2008-05-09T23:22:21Z</date>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB45</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Pezcore/EYSM.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>992</key>
+		<dict>
+			<key>Track ID</key><integer>992</integer>
+			<key>Name</key><string>Last One Out of Liberty City</string>
+			<key>Artist</key><string>Less Than Jake</string>
+			<key>Album</key><string>Hello Rockview</string>
+			<key>Genre</key><string>rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1943552</integer>
+			<key>Total Time</key><integer>121391</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Date Modified</key><date>2004-09-16T18:34:41Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3297348035</integer>
+			<key>Play Date UTC</key><date>2008-06-27T02:00:35Z</date>
+			<key>Normalization</key><integer>8098</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB46</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Hello%20Rockview/FAKT.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>994</key>
+		<dict>
+			<key>Track ID</key><integer>994</integer>
+			<key>Name</key><string>Boy's No Good</string>
+			<key>Artist</key><string>Rise Against</string>
+			<key>Album Artist</key><string>Rise Against</string>
+			<key>Composer</key><string>Ari Zev Katz, Daniel Benjamin Yemin, David Palaitis, Peter M. Martin &#38; Scott Golley</string>
+			<key>Album</key><string>This Is Noise - EP</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>1341787</integer>
+			<key>Total Time</key><integer>78296</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>5</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2008-01-28T00:16:51Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:38Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3303992299</integer>
+			<key>Play Date UTC</key><date>2008-09-11T23:38:19Z</date>
+			<key>Release Date</key><date>2008-01-15T08:00:00Z</date>
+			<key>Normalization</key><integer>10320</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB47</string>
+			<key>Explicit</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Rise%20Against/This%20Is%20Noise%20-%20EP/01%20Boy's%20No%20Good.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>996</key>
+		<dict>
+			<key>Track ID</key><integer>996</integer>
+			<key>Name</key><string>I Don't Wanna Be In Love (Dance Floor Anthem)</string>
+			<key>Artist</key><string>Good Charlotte</string>
+			<key>Album Artist</key><string>Good Charlotte</string>
+			<key>Album</key><string>Good Morning Revival</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>3935967</integer>
+			<key>Total Time</key><integer>243970</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2007-11-26T15:05:51Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:39Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>11</integer>
+			<key>Play Date</key><integer>3310467381</integer>
+			<key>Play Date UTC</key><date>2008-11-25T22:16:21Z</date>
+			<key>Release Date</key><date>2007-03-27T07:00:00Z</date>
+			<key>Normalization</key><integer>10719</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB48</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Creator</key><integer>1752133483</integer>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Good%20Charlotte/Good%20Morning%20Revival/04%20I%20Don't%20Wanna%20Be%20In%20Love%20(Dance%20Floor%20Anthem).m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>998</key>
+		<dict>
+			<key>Track ID</key><integer>998</integer>
+			<key>Name</key><string>Laverne and Shirley Theme</string>
+			<key>Artist</key><string>Less Than Jake</string>
+			<key>Album</key><string>Pezcore</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>814792</integer>
+			<key>Total Time</key><integer>50912</integer>
+			<key>Date Modified</key><date>2004-09-16T18:35:12Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:39Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3293436854</integer>
+			<key>Play Date UTC</key><date>2008-05-12T19:34:14Z</date>
+			<key>Normalization</key><integer>5902</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB49</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Pezcore/Laverne%20and%20Shirley%20Theme.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>999</key>
+		<dict>
+			<key>Track ID</key><integer>999</integer>
+			<key>Name</key><string>Corporate Lipsum</string>
+      <key>Artist</key><string>The "Cubicles"</string>
+			<key>Album</key><string>Little Red Stapler</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>814792</integer>
+			<key>Total Time</key><integer>50912</integer>
+			<key>Date Modified</key><date>2004-09-16T18:35:12Z</date>
+			<key>Date Added</key><date>2008-05-07T18:04:39Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3293436854</integer>
+			<key>Play Date UTC</key><date>2008-05-12T19:34:14Z</date>
+			<key>Normalization</key><integer>5902</integer>
+			<key>Persistent ID</key><string>AB1AA5ED9981CB49</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/tierney/Music/iTunes/iTunes%20Music/Less%20Than%20Jake/Pezcore/Laverne%20and%20Shirley%20Theme.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+
+	</dict>
+</dict>
+</plist>
